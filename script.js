@@ -19,8 +19,8 @@ function Move(){
 
     e.style.position = "absolute";
 
-    e.style.right = Math.floor(Math.random() * 100) + "%"
-    e.style.bottom = Math.floor(Math.random() * 100) + "%"
+    e.style.right = Math.floor(Math.random() * 95) + "%"
+    e.style.bottom = Math.floor(Math.random() * 95) + "%"
 
 
 }

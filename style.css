@@ -35,6 +35,8 @@ body {
     transition: 0.1s all;
 }
 button{
+    right: 0;
+    top: 0;
     border: none;
     background: #00000030;
     padding: 10px 15px;
