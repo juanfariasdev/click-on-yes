@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,26 +8,27 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>YES</title>
 </head>
+
 <body>
     <div class="application">
-    <div class="question">
-        <h2 class="title">Você me ama?</h2>
+        <div class="question">
 
-        <div class="area">
-            <div class="buttons">
-                <span style="border: 5px solid transparent;">
-                    <button onclick="alert('tbm te amo <3')" id="yes">SIM</button>
-                </span>
-                
-                <span id="noWithBorder" style="border: 10px solid transparent;">
-                    <button onclick="Move(); alert('não foi dessa vez')" id="no">NÃO</button>
-                </span>
-                    
+            <div class="area">
+                <h2 id="title" class="title">Qual a pergunta?</h2>
+
+                <input type="text" id="question" placeholder="Ex: Vai ter janta hoje?" />
+
+                <h2 id="title" class="title">Mensagem que irá aparecer?</h2>
+
+                <input type="text" id="answer" placeholder="Ex: Te amo <3" />
+
+                <button onclick="checkAnswer()">Preparar</button>
+
             </div>
         </div>
     </div>
-</div>
-    
+
     <script src='script.js' type='text/javascript'></script>
 </body>
+
 </html>

@@ -11,6 +11,21 @@ body {
     margin: 0;
     padding: 10px 0px;
 }
+.titles{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.titles h2{
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+.titles button{
+    font-size: 17px;
+}
 .application{
     display: flex;
     justify-content: center;
@@ -21,6 +36,7 @@ body {
 }
 .question{
     width: 80%;
+    max-width: 450px;
     background-color: #212121;
     padding: 20px;
     border-radius: 7px;
@@ -32,8 +48,25 @@ body {
     justify-content: space-between;
 }
 #noWithBorder{
-    transition: 0.1s all;
+    transition: 0.2s all;
 }
+
+.area{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+input{
+    padding: 15px 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: #00000030;
+    color: white;
+    font-size: 20px;
+    transition: 0.2s all;
+}
+
 button{
     right: 0;
     top: 0;
