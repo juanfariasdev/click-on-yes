@@ -60,7 +60,7 @@ if (response) {
 function checkAnswer() {
     const title = document.getElementById('question').value;
     const answer = document.getElementById('answer').value;
-    window.location.href = "/play.html?title=" + title + "&response=" + answer;
+    window.location.href = "play.html?title=" + title + "&response=" + answer;
 }
 
 function copyLink() {
